@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b1d1e;
+}
+
+.section{
+    background-color:#1b1d1e;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+   
+    margin-top: 10rem;
+    /* height: 100vh; */
+    /* border: 5px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 1px;
+
+
+}
+.section .card{
+    background-color: #181a1b;
+    margin: 1rem 0px 1rem 0px;
+    border-radius: 8px;
+    border: 1px solid rgba(245, 245, 245, 0.128);
+    height: 22rem;
+    width: 26rem;
+    /* margin: auto; */
+    
+
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px 2px 4px -2px;
+}
+ 
+
+.card .img{ 
+    /* border: 5px solid green; */
+    margin: 1rem 2rem 0px 1rem; 
+    /* width: 80rem;
+    height: 44rem; */
+    
+    border-radius: 8px;
+    width: 22rem;
+    height: 13rem;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px 2px 4px -2px;
+    /* margin: auto; */
+}
+.card h1{
+    margin-top:0.5rem ;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    /* border: 2px solid blue; */
+    color: white;
+    letter-spacing: -0.6px;
+    font-size: 1.5em;
+}
+.card .bg-dot{
+    margin-left: 1rem;
+    width: 15rem;
+    height: 2px;
+    background-color: rgba(0, 0, 0);
+}
+.card .link{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.card .link .off{
+    text-decoration: none;
+    color:#6e96cf;
+    margin-right: 0.2rem;
+}
+.card .link .cross{
+    text-decoration: none;
+    color:#777c85;
+    margin-right: 0.2rem;
+}
+.link .btn{
+    color: white;
+    width:3.5rem;
+    height: 1.5rem;
+    border: none;
+    margin-top: 1rem;
+    font-size: smaller;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color:#1dd1a1;
+}
+.section .card1{
+    margin-left: 8rem;
+}
+.section .card2{
+    margin-left: 2rem;
+    margin-right: -1.5rem;
+}
+.section .card3{
+    margin-right: 6rem;
+}
+.card:hover{
+    transform: scale(1.03);
+    transition: all;
+    transition: 0.5s;
+    border: none;
+    background-color: black;
+}
